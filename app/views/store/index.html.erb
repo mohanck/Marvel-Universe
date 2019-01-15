@@ -1,0 +1,7 @@
+<%= javascript_pack_tag 'App' %>
+
+<%= content_tag :div,
+                id: 'store_data',
+                data: { products: @products, skus: @skus } do %>
+  <% end %>
+<div id="store"></div>
